@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #1f2937;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family:  sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-[10px] transition-all duration-150 shadow-md hover:-translate-y-px active:translate-y-0 text-sm;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-gray-800 font-semibold px-6 py-3 rounded-[10px] border border-gray-200 transition-all duration-150 hover:-translate-y-px active:translate-y-0 text-sm;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .card {
+    @apply bg-white rounded-[14px] border border-gray-200 p-7 hover:border-green-600/40 hover:shadow-md transition-all duration-200 hover:-translate-y-0.5;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2.5 text-green-600 text-[11px] font-semibold uppercase tracking-widest;
+    font-family: 'DM Sans', sans-serif;
+  }
+}
