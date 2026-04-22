@@ -552,7 +552,6 @@ export default function App() {
       <Process />
       <ServiceAreas />
       <FinalCTA />
-      <Footer />
 
     </div>
   );
