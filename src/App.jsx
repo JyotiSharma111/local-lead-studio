@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
-import Services from "./pages/Services"
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Blog from "./pages/Blog";
-import ThankYou from "./pages/Thank-you";
+import Home from "./pages/Home.jsx";
+import Services from "./pages/Services.jsx"
+import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
+import Blog from "./pages/Blog.jsx";
+import ThankYou from "./pages/Thank-you.jsx";
 
 function StickyCallButton() {
   return (
