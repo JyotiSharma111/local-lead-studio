@@ -4,11 +4,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import Services from "./pages/services"
+import Services from "./pages/Services"
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
-import ThankYou from "./pages/thank-you";
+import ThankYou from "./pages/Thank-you";
 
 function StickyCallButton() {
   return (
