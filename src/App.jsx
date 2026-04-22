@@ -8,7 +8,7 @@ import Services from "./pages/Services.jsx"
 import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";
 import Blog from "./pages/Blog.jsx";
-import ThankYou from "./pages/Thank-you.jsx";
+import ThankYou from "./pages/ThankYou.jsx";
 
 function StickyCallButton() {
   return (
