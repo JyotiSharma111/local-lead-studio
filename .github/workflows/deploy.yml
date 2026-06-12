@@ -41,5 +41,5 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            rm -rf /var/www/dev-localleadstudio/*
-            cp -r /tmp/dev-localleadstudio/dist/* /var/www/dev-localleadstudio/ 
+              chmod -R 755 /var/www/dev-localleadstudio
+              sudo systemctl reload nginx
